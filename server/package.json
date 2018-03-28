@@ -1,0 +1,25 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Shopping app using express and vue",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vksonagara/shopping-cart.git"
+  },
+  "author": "Vinod Sonagara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vksonagara/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/vksonagara/shopping-cart#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.0.5",
+    "mongoose": "^5.0.12"
+  }
+}
