@@ -5,7 +5,7 @@ describe('User:', () => {
   it('creates user', (done) => {
     User.create({
       name: 'Vinod',
-      email: 'vksonaga@hotmail.com',
+      email: 'vksonagara@hotmail.com',
       password: '1234',
       mobile: '7060334254',
       hash: '1234'

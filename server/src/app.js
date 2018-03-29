@@ -1,9 +1,11 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 
 const app = express();
 const mongoDB = 'mongodb://localhost/shopping-cart';
 
+app.use(bodyParser.json());
 app.use('/api', require('./controllers'));
 
 mongoose.connect(mongoDB);
